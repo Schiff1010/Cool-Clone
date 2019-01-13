@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Rocket Clone</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Proza+Libre:400,500">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="back clouds"></div>
+        <div class="front clouds"></div>
+        <div class="container">
+            <a href="#" id="logo">
+                <span>Rocket Homepage</span>
+            </a>
+            <nav class="version-select">
+                <span onclick="toggleOptions()">
+                    v0.4
+                    <i></i>
+                </span>
+                <option>
+                    <a href="#">v0.3</a>
+                </option>
+            </nav>
+            <input type="checkbox" id="toggle">
+            <label for="toggle" class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+            <nav class="main">
+                <a href="#">overview</a>
+                <a href="#">guide</a>
+                <a href="#">api</a>
+                <a href="#">news</a>
+                <a href="#">code</a>
+            </nav>
+            <div class="centered banner">
+                <h1>Meet Rocket.</h1>
+                <h2>Rocket is a web framewor for Rust that makes it simple to write
+                    <i>fast</i>
+                    , 
+                    <b>secure</b>
+                    web applications without sarcrificing flexibility, usability, or type safety.
+                </h2>
+                <a href="#" class="button"> Get Started</a>
+                <a href="#" class="button inverted">Learn More</a>
+            </div>
+            <div class="grid">
+                <div class="col">
+                    <hr>
+                </div>
+                <h4 class="col" style="text-align:center;margin:0;padding:0;">Lates Release: 
+                    <a href="#">0.4.0 (Jan 13, 2019)</a>
+                </h4>
+                <div class="col">
+                    <hr>
+                </div>
+            </div>
+            <br>
+            <div class="grid features">
+                <div class="col centered">
+                    <img src="img/helmet.svg" alt="Image">
+                    <h3>Type Safe</h3>
+                    <figcaption>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, asperiores rerum!.</figcaption>
+                    <a href="#" class="button inverted small">Learn More</a>
+                </div>
+                <div class="col centered">
+                    <img src="img/robot-free.svg" alt="Image">
+                    <h3>Boilerplate Free</h3>
+                    <figcaption>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, asperiores rerum!.</figcaption>
+                    <a href="#" class="button inverted small">See Example</a>
+                </div>
+                <div class="col centered">
+                    <img src="img/sun.svg" alt="Image">
+                    <h3>Easy To Use</h3>
+                    <figcaption>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, asperiores rerum!.</figcaption>
+                    <a href="#" class="button inverted small">Get Started</a>
+                </div>
+                <div class="col centered">
+                    <img src="img/telescope.svg" alt="Image">
+                    <h3>Extensible</h3>
+                    <figcaption>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, asperiores rerum!.</figcaption>
+                    <a href="#" class="button inverted small">See How</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="features">
+        <div class="container">
+            <div class="centered">
+                <h2>And so much more.</h2>
+                <h4>Essential Features, built in.</h4>
+            </div>
+            <div class="grid">
+                <div class="col centered tight">
+                    <img src="/img/templating-icon.svg" alt="Image">
+                    <h3 class="blue">Templating</h3>
+                    <figcaption class="wide">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora quod quibusdam rerum?</figcaption>
+                    <a href="#" class="button inverted small blue">Learn More</a>
+                </div>
+                <div class="col centered tight">
+                    <img src="/img/cookies-icon.svg" alt="Image" style="margin-top:-6px;">
+                    <h3 class="purple">Cookies</h3>
+                    <figcaption class="wide">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora quod quibusdam rerum?</figcaption>
+                    <a href="#" class="button inverted small purple">Learn More</a>
+                </div>
+                <div class="col centered tight">
+                    <img src="/img/streams-icon.svg" alt="Image" style="margin-top:-29px;">
+                    <h3 class="red">Stream</h3>
+                    <figcaption class="wide">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora quod quibusdam rerum?</figcaption>
+                    <a href="#" class="button inverted small red">Learn More</a>
+                </div>
+            </div><hr>
+            <div class="grid">
+                <div class="col centered tight">
+                    <img src="/img/config-icon.svg" alt="Image" style="margin-top:-3px">
+                    <h3 class="yellow">Config Environtments</h3>
+                    <figcaption class="wide">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora quod quibusdam rerum?</figcaption>
+                    <a href="#" class="button inverted small yellow">Learn More</a>
+                </div>
+                <div class="col centered tight">
+                    <img src="/img/testing-icon.svg" alt="Image">
+                    <h3 class="orange">Testing Library</h3>
+                    <figcaption class="wide">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora quod quibusdam rerum?</figcaption>
+                    <a href="#" class="button inverted small orange">Learn More</a>
+                </div>
+                <div class="col centered tight">
+                    <img src="/img/ship-icon.svg" alt="Image" style="margin-top:-20px">
+                    <h3 class="green">Stream</h3>
+                    <figcaption class="wide">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora quod quibusdam rerum?</figcaption>
+                    <a href="#" class="button inverted small green">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="grid">
+        <div class="container">
+            <div class="col mobile-hide">
+                <a href="#">2019 Clone by: Hueco Mundo</a>
+            </div>
+            <div class="col centered">
+                <img src="/img/logo-small.svg" alt="Logo">
+            </div>
+            <div class="col text-right mobile-hide">
+                <a href="#">Back To Top</a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        function toggleOptions(){
+            if(!(870<=screen.width)){
+                var e = document.querySelector("nav.version-select option");
+                e.style.display = "none"===e.style.display?"block":"none"
+            }
+        }
+    </script>
+    <script>
+        !function(){
+            var r=null, u=0, a=document.querySelector(".front.clouds"), c=document.querySelector(".back.clouds"), s=20, d=5;window.requestAnimationFrame(function e(n){
+                if(r||(r=n), n-u<50)window.requestAnimationFrame(e);
+                else{
+                    var o=n-r, t=s*(o/1e3), i=d*(o/1e3);
+                    a.style.backgroundPositionX=-t+"px", c.style.backgroundPositionX=-i+"px", u=n, window.requestAnimationFrame(e)
+                }
+            })
+        }()
+    </script>
+</body>
+</html>
